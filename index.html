@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WallyBot | Robot recolector de residuos</title>
+  <style>
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#f4f7f6;color:#17211d}
+    header{background:#153d35;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center}
+    header b{font-size:1.4rem} nav a{color:white;text-decoration:none;margin-left:18px}
+    .hero{min-height:68vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 8%;
+      background:linear-gradient(135deg,#dff5e9,#eef8f3)}
+    .hero h1{font-size:3.4rem;margin:0 0 14px}.hero p{font-size:1.25rem;max-width:720px;margin:auto;line-height:1.6}
+    .badge{display:inline-block;background:#d8efe3;color:#153d35;padding:8px 14px;border-radius:999px;font-weight:bold;margin-bottom:20px}
+    section{padding:55px 8%;max-width:1100px;margin:auto} h2{font-size:2rem;color:#153d35}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:white;border-radius:16px;padding:24px;box-shadow:0 8px 24px rgba(0,0,0,.07)}
+    .robot{font-size:6rem;margin:25px 0 10px}
+    footer{background:#153d35;color:white;text-align:center;padding:28px}
+    .steps{counter-reset:item}.step{background:white;margin:14px 0;padding:20px;border-left:5px solid #3a8d70;border-radius:10px}
+  </style>
+</head>
+<body>
+<header>
+  <b>WallyBot</b>
+  <nav><a href="#funciona">Cómo funciona</a><a href="#materiales">Materiales</a><a href="#objetivo">Objetivo</a></nav>
+</header>
+
+<div class="hero">
+  <div>
+    <span class="badge">Proyecto de robótica • Prototipo</span>
+    <h1>WallyBot</h1>
+    <p>Un robot recolector de residuos inspirado en la idea de mantener nuestros espacios más limpios mediante tecnología, creatividad y trabajo en equipo.</p>
+    <div class="robot">🤖♻️</div>
+  </div>
+</div>
+
+<section id="funciona">
+  <h2>¿Cómo funciona?</h2>
+  <p>WallyBot es un prototipo móvil diseñado para desplazarse y ayudar a recolectar basura. Su estructura combina un chasis, ruedas, motores, sistema de control y un mecanismo frontal de recolección.</p>
+  <div class="steps">
+    <div class="step"><b>1. Movimiento:</b> los motores permiten que el robot avance, retroceda y cambie de dirección.</div>
+    <div class="step"><b>2. Control:</b> el operador dirige el prototipo mediante su sistema de control.</div>
+    <div class="step"><b>3. Recolección:</b> el mecanismo frontal guía los residuos hacia el área destinada para almacenarlos.</div>
+  </div>
+</section>
+
+<section id="materiales">
+  <h2>Componentes principales</h2>
+  <div class="grid">
+    <div class="card"><h3>Chasis</h3><p>Base resistente donde se montan los componentes del robot.</p></div>
+    <div class="card"><h3>Motores y ruedas</h3><p>Permiten el desplazamiento y control de dirección.</p></div>
+    <div class="card"><h3>Sistema de control</h3><p>Conecta al operador con el movimiento del prototipo.</p></div>
+    <div class="card"><h3>Recolector</h3><p>Mecanismo diseñado para recoger residuos del suelo.</p></div>
+  </div>
+</section>
+
+<section id="objetivo">
+  <h2>Nuestro objetivo</h2>
+  <div class="card">
+    <p>El objetivo de WallyBot es demostrar cómo la robótica puede utilizarse para plantear soluciones sencillas a problemas cotidianos, como la acumulación de residuos, mientras aprendemos sobre diseño, construcción, electrónica y trabajo colaborativo.</p>
+  </div>
+</section>
+
+<footer>WallyBot • Página web de prueba del proyecto escolar • 2026</footer>
+</body>
+</html>
